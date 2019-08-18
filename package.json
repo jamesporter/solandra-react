@@ -1,0 +1,44 @@
+{
+  "name": "solandra-react",
+  "version": "0.0.1",
+  "description": "A React wrapper for Solandra",
+  "main": "lib/index.js",
+  "scripts": {
+    "build": "rm -rf ./lib && tsc",
+    "prepare": "yarn build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jamesporter/solandra-react.git"
+  },
+  "keywords": [
+    "algorithmic",
+    "art",
+    "react",
+    "graphics",
+    "2D",
+    "Canvas"
+  ],
+  "author": "James Porter <james@amimetic.co.uk>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jamesporter/solandra-react/issues"
+  },
+  "homepage": "https://github.com/jamesporter/solandra-react#readme",
+  "dependencies": {
+    "react-use-dimensions": "^1.2.1"
+  },
+  "devDependencies": {
+    "@types/react": "^16.9.2",
+    "@types/react-dom": "^16.8.5",
+    "react": "^16.9.0",
+    "react-dom": "^16.9.0",
+    "typescript": "^3.5.3",
+    "solandra": "^0.6.0"
+  },
+  "peerDependencies": {
+    "react": "^16.8.0",
+    "react-dom": "^16.8.0",
+    "solandra": "^0.6.0"
+  }
+}
